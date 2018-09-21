@@ -1,0 +1,44 @@
+body {
+    font-family: 'Coiny', cursive;
+    background-color: rgb(201, 249, 255);
+
+}
+ 
+#submit {
+    margin: 70px 0px 0px 0px;
+    
+}
+
+#idea {
+    margin: 0px 0px 30px 0px;
+    box-shadow: 5px 5px 8px black, 10px 10px 8px grey;
+    
+}
+
+#userButtons {
+    color: white;
+    border-radius: 12px;
+    border: #318EDE thick inset;
+    margin: 20px 0px 0px 0px;
+    text-align:center;
+    font-family: 'Coiny', cursive;
+    background-color: rgb(40, 211, 177);
+    background-color: rgb(40, 211, 177);
+    text-shadow: 2px 2px 2px black, 
+               4px 4px 4px #318EDE; 
+    box-shadow: 5px 5px 8px black, 10px 10px 8px grey;
+}
+
+#userOutput {
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+    border: red thin solid;
+    margin: 70px 0px 0px 0px;
+    min-height: 350px;
+    border: #318EDE thick inset;
+    background-color: rgb(40, 211, 177);
+    text-shadow: 2px 2px 2px black, 
+               4px 4px 4px #318EDE; 
+    box-shadow: 5px 5px 8px black, 10px 10px 8px grey;
+}
