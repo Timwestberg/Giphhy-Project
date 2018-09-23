@@ -3,6 +3,10 @@ body {
     background-color: rgb(201, 249, 255);
 
 }
+
+header {
+    color: white;
+}
  
 #submit {
     margin: 70px 0px 0px 0px;
@@ -11,9 +15,15 @@ body {
 
 #idea {
     margin: 0px 0px 30px 0px;
-    box-shadow: 5px 5px 8px black, 10px 10px 8px grey;
     
 }
+
+.cartoonButton {
+    margin: 3px;
+    background-color:#214234;
+
+}
+
 
 #userButtons {
     color: white;
@@ -22,7 +32,6 @@ body {
     margin: 20px 0px 0px 0px;
     text-align:center;
     font-family: 'Coiny', cursive;
-    background-color: rgb(40, 211, 177);
     background-color: rgb(40, 211, 177);
     text-shadow: 2px 2px 2px black, 
                4px 4px 4px #318EDE; 
@@ -35,10 +44,59 @@ body {
     border-radius: 12px;
     border: red thin solid;
     margin: 70px 0px 0px 0px;
-    min-height: 350px;
+    height: auto;
     border: #318EDE thick inset;
     background-color: rgb(40, 211, 177);
     text-shadow: 2px 2px 2px black, 
                4px 4px 4px #318EDE; 
     box-shadow: 5px 5px 8px black, 10px 10px 8px grey;
 }
+
+.gif {
+    margin: 10px;
+    height:300px;
+    width:300px; 
+    border-radius: 12px;
+    border: thick #e2149a outset;
+}
+
+.hvr-box-shadow-outset {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 5px 5px 8px black, 10px 10px 8px grey;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+  }
+  .hvr-box-shadow-outset:hover, .hvr-box-shadow-outset:focus, .hvr-box-shadow-outset:active {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+  }
+
+  .hvr-trim {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+  }
+  .hvr-trim:before {
+    content: '';
+    position: absolute;
+    border: #42f4aa dashed 4px;
+    top: 4px;
+    left: 4px;
+    right: 4px;
+    bottom: 4px;
+    opacity: 0;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+  }
+  .hvr-trim:hover:before, .hvr-trim:focus:before, .hvr-trim:active:before {
+    opacity: 1;
+  }
